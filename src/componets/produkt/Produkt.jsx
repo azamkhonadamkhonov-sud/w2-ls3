@@ -156,7 +156,7 @@ export default function Produkt() {
                     value={priceE}
                     onChange={(e) => setPriceE(e.target.value)}
                 />
-                <button onClick={editUser} className='bg-blue-500 text-white text-2xl p-4 pt- pb-2 m-2'>Save Edit</button>
+                <button onClick={editUser} className='bg-blue-500 text-white text-2xl p-4 pt-2 pb-2 m-2'>Save</button>
             </dialog>
             <dialog open={Open} className='m-auto mt-[400px]'>
                 <input
